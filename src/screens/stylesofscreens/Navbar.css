@@ -1,0 +1,94 @@
+@media only screen and (min-width: 600px) {
+    .navbar{
+        display: flex;
+        background-color: white;
+        min-width: 40px;
+        background-image: "https://th.bing.com/th/id/OIP.Ozq56yR8uwp-DOg7-ayiwgHaEo?pid=ImgDet&rs=1";
+        /* border-color: #000000 10px; */
+        /* border-color: black; */
+        box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.2);
+        justify-content: space-between;
+    }
+    /* .sep{
+        height: 100%;
+    } */
+    .logo{
+        margin-left: 20px;
+        margin-top:20px;
+        height: 30px;
+    }
+    .logoname{
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    .elements{
+        display: flex;
+        align-items: flex-end;
+        list-style: none;
+    }
+    
+    .element{
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .navele{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .element:hover{
+        box-shadow: 0px 0px 0px 3px rgba(0,0,0,0.2);
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .monavbar{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        min-width: 40px;
+    }
+    .logo{
+        margin: 10px;
+        height: 30px;
+    }
+    .hammenu{
+        margin:10px;
+        width:30px;
+        height:30px;
+        color:black;
+        background-color: black;
+    }
+    .hiddensidemenu{
+        display: none;
+    }
+    .sidemenu{
+        list-style: none;
+        width:70%;
+        height: 100vh;
+        transition: 0.3s;
+        background-color: white;
+    }
+    .element{
+        padding: 20px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .monavbar{
+        display: none;
+    }
+    .monavbar2{
+        display: none;
+    }
+}
